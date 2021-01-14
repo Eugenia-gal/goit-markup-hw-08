@@ -1,0 +1,33 @@
+/*-------------------social links --------------   */
+
+.social-links.list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-links .link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  color: var(--primary-icon-color);
+  border-radius: 50%;
+  background-color: transparent;
+
+  transition: color 250ms var(--time-function),
+    background-color 250ms var(--time-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+  }
+}
+
+.social-links .icon {
+  margin: auto;
+  fill: currentColor;
+}
