@@ -1,14 +1,9 @@
-@import 'utils/visually-hidden';
+@import 'base/reset';
+
 @import 'utils/variables';
 @import 'utils/mixins';
 
-@import 'base/reset';
-
-@import 'components/section';
 @import 'components/container';
-@import 'components/social-links';
 @import 'components/logo';
 
-@import 'layout/page-header';
-@import 'layout/our-works';
-@import 'layout/footer';
+@import 'layouts/page-header';

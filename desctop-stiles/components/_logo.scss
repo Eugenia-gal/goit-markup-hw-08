@@ -1,15 +1,16 @@
 /* logo */
 .logo {
-  @include font(24px, 700, 28px);
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 
+  margin-right: 93px;
   color: #000000;
-
-  // outline: 1px solid black;
 }
 
-.logo__span {
+.logo span {
   color: var(--accent-color);
 }
