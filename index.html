@@ -70,7 +70,7 @@
           </div>
         </section>  -->
       <!-- Advantages -->
-      <!-- <section class="advantages section">
+      <section class="advantages section">
         <div class="container">
         <h2 class="visually-hidden">Преимущества</h2>
           <ul class="advantages__list list">
@@ -124,10 +124,10 @@
             </li>
           </ul>
           </div>
-      </section> -->
+      </section>
 
       <!-- Activity -->
-      <!-- <section class="activity section"> 
+       <!-- <section class="activity section">
         <div class="container">
         <h2 class="activity__title title">Чем мы занимаемся</h2>
         <ul class="activity__list list">
@@ -166,40 +166,57 @@
          
         </ul>
         </div>
-      </section>  -->
+      </section> -->
 
       <!-- Our team -->
       <section class="our-team section">
         <div class="container">
           <h2 class="our-team__title title">Наша команда</h2>
-          <ul class="our-team__card-list list">
-            <li class="our-team__card-list-item">
+          <ul class="our-team__card-set list">
+            <li class="our-team__card-set-item">
               <picture>
-                <source srcset="" media="" />
-                <source srcset="" media="" type="" />
-                <img src="./images/employee-1-mobile@1x.jpg" alt="Сотрудник"/>
+                <source srcset="./images/employee-1-desk@1x.webp  1x, ./images/employee-3-desk@2x.webp 1x" media="(min-width: 1200px)"
+                  type="image/webp" />
+              
+                <source srcset="./images/employee-1-tablet@1x.webp  1x, ./images/employee-1-tablet@2x.webp 2x"
+                  media="(min-width: 768px)" type="image/webp" />
+              
+                <source srcset="./images/employee-1-mobile@1x.webp 1x, ./images/employee-1-mobile@2x.webp 2x"
+                  media="(max-width: 479px)" type="image/webp" />
+              
+              
+                <source srcset="./images/employee-1-desk@1x.jpg 1x, ./images/employee-1-desk@2x.jpg 2x" media="(min-width: 1200px)"
+                  type="image/jpg" />
+              
+                <source srcset="./images/employee-1-tablet@1x.jpg 1x, ./images/employee-1-tablet@2x.jpg 2x" media="(min-width: 768px)"
+                  type="image/jpg" />
+              
+                <source srcset="./images/employee-1-mobile@1x.jpg 1x, ./images/employee-1-mobile@2x.jpg 2x" media="(max-width: 767px)"
+                  type="image/jpg" />
+              
+                <img src="./images/employee-1-desk@1x.jpg" alt="Сотрудник" class="our-team__card-set-item-img" />
               </picture>
-                <div class="our-team__card-list-wrapper">
-                  <h3 class="our-team__card-list-name">Игорь Демьяненко</h3>
-                  <p class="our-team__card-list-position" lang="en">Product Designer</p>
-      
+                <div class="our-team__card-set-wrapper">
+                  <h3 class="our-team__card-set-name">Игорь Демьяненко</h3>
+                  <p class="our-team__card-set-position" lang="en">Product Designer</p>
+
                   <ul class="social-links__list list">
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                       <svg class="social-links__list-item-icon" width="20" height="20";>
                         <use href="./images/sprite.svg#instagram"></use>
                       </svg>
                     </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                       <svg class="social-links__list-item-icon" width="20" height="20">
                         <use href="./images/sprite.svg#twitter"></use>
                       </svg>
                     </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                       <svg class="social-links__list-item-icon" width="20" height="20">
                         <use href="./images/sprite.svg#facebook"></use>
                       </svg>
                     </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                       <svg class="social-links__list-item-icon" width="20" height="20">
                         <use href="./images/sprite.svg#linkedin"></use>
                       </svg>
@@ -207,31 +224,50 @@
                   </ul>
                 </div>
             </li>
-            <li class="our-team__card-list-item">
+            <li class="our-team__card-set-item">
               <picture>
-                <img src="./images/employee-2-mobile@1x.jpg" alt="Сотрудник"/>
+                <source srcset="./images/employee-2-desk@1x.webp  1x, ./images/employee-2-desk@2x.webp 2x" media="(min-width: 1200px)"
+                  type="image/webp" />
+              
+                <source srcset="./images/employee-2-tablet@1x.webp  1x, ./images/employee-2-tablet@2x.webp 2x"
+                  media="(min-width: 768px)" type="image/webp" />
+              
+                <source srcset="./images/employee-2-mobile@1x.webp 1x, ./images/employee-2-mobile@2x.webp 2x"
+                  media="(max-width: 479px)" type="image/webp" />
+              
+              
+                <source srcset="./images/employee-2-desk@1x.jpg 1x, ./images/employee-2-desk@2x.jpg 2x" media="(min-width: 1200px)"
+                  type="image/jpg" />
+              
+                <source srcset="./images/employee-2-tablet@1x.jpg 1x, ./images/employee-2-tablet@2x.jpg 2x" media="(min-width: 768px)"
+                  type="image/jpg" />
+              
+                <source srcset="./images/employee-2-mobile@1x.jpg 1x, ./images/employee-2-mobile@2x.jpg 2x" media="(max-width: 767px)"
+                  type="image/jpg" />
+              
+                <img src="./images/employee-2-desk@1x.jpg" alt="Сотрудник" class="our-team__card-set-item-img" />
               </picture>
-                <div class="our-team__card-list-wrapper">
-                <h3 class="our-team__card-list-name">Ольга Репина</h3>
-                <p class="our-team__card-list-position" lang="en">Frontend Developer</p>
+                <div class="our-team__card-set-wrapper">
+                <h3 class="our-team__card-set-name">Ольга Репина</h3>
+                <p class="our-team__card-set-position" lang="en">Frontend Developer</p>
                 
                   <ul class="social-links__list list">
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20" ;>
                           <use href="./images/sprite.svg#instagram"></use>
                         </svg>
                       </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20">
                           <use href="./images/sprite.svg#twitter"></use>
                         </svg>
                       </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20">
                           <use href="./images/sprite.svg#facebook"></use>
                         </svg>
                       </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20">
                           <use href="./images/sprite.svg#linkedin"></use>
                         </svg>
@@ -239,32 +275,57 @@
                   </ul>
                  </div>
             </li>
-            <li class="our-team__card-list-item">
+            <li class="our-team__card-set-item">
               <picture>
-                <img src="./images/employee-3-mobile@1x.jpg" alt="Сотрудник"/>
+                <source srcset="./images/employee-3-desk@1x.webp  1x, ./images/employee-3-desk@2x.webp 2x"
+                  media="(min-width: 1200px)" 
+                  type="image/webp"/>
+
+                <source srcset="./images/employee-3-tablet@1x.webp  1x, ./images/employee-3-tablet@2x.webp 2x"
+                  media="(min-width: 768px)" 
+                  type="image/webp" />
+
+                <source srcset="./images/employee-3-mobile@1x.webp 1x, ./images/employee-3-mobile@2x.webp 2x" 
+                  media="(max-width: 479px)"
+                  type="image/webp" />
+
+
+                <source srcset="./images/employee-3-desk@1x.jpg 1x, ./images/employee-3-desk@2x.jpg 2x" 
+                  media="(min-width: 1200px)"
+                  type="image/jpg" />
+
+                <source srcset="./images/employee-3-tablet@1x.jpg 1x, ./images/employee-3-tablet@2x.jpg 2x" 
+                  media="(min-width: 768px)"
+                  type="image/jpg"/>
+
+                <source srcset="./images/employee-3-mobile@1x.jpg 1x, ./images/employee-3-mobile@2x.jpg 2x" 
+                  media="(max-width: 767px)"
+                  type="image/jpg"/>
+
+                  <img src="./images/employee-3-desk@1x.jpg" alt="Сотрудник" class="our-team__card-set-item-img" />
               </picture>
                 
-                <div class="our-team__card-list-wrapper">
-                <h3 class="our-team__card-list-name">Николай Тарасов</h3>
-                <p class="our-team__card-list-position" lang="en">Marketing</p>
+                <div class="our-team__card-set-wrapper">
+                <h3 class="our-team__card-set-name">Николай Тарасов</h3>
+                <p class="our-team__card-set-position" lang="en">Marketing</p>
                 
                   <ul class="social-links__list list">
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20" ;>
                           <use href="./images/sprite.svg#instagram"></use>
                         </svg>
                       </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20">
                           <use href="./images/sprite.svg#twitter"></use>
                         </svg>
                       </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20">
                           <use href="./images/sprite.svg#facebook"></use>
                         </svg>
                       </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20">
                           <use href="./images/sprite.svg#linkedin"></use>
                         </svg>
@@ -272,34 +333,53 @@
                   </ul>
                           </div>
             </li>
-            <li class="our-team__card-list-item">
+            <li class="our-team__card-set-item">
               <picture>
-<img src="./images/employee-4-mobile@1x.jpg" alt="Сотрудник"/>
+                <source srcset="./images/employee-4-desk@1x.webp  1x, ./images/employee-4-desk@2x.webp 2x" media="(min-width: 1200px)"
+                  type="image/webp" />
+              
+                <source srcset="./images/employee-4-tablet@1x.webp  1x, ./images/employee-4-tablet@2x.webp 2x"
+                  media="(min-width: 768px)" type="image/webp" />
+              
+                <source srcset="./images/employee-4-mobile@1x.webp 1x, ./images/employee-4-mobile@2x.webp 2x"
+                  media="(max-width: 479px)" type="image/webp" />
+              
+              
+                <source srcset="./images/employee-4-desk@1x.jpg 1x, ./images/employee-4-desk@2x.jpg 2x" media="(min-width: 1200px)"
+                  type="image/jpg" />
+              
+                <source srcset="./images/employee-4-tablet@1x.jpg 1x, ./images/employee-4-tablet@2x.jpg 2x" media="(min-width: 768px)"
+                  type="image/jpg" />
+              
+                <source srcset="./images/employee-4-mobile@1x.jpg 1x, ./images/employee-4-mobile@2x.jpg 2x" media="(max-width: 767px)"
+                  type="image/jpg" />
+              
+                <img src="./images/employee-4-desk@1x.jpg" alt="Сотрудник" class="our-team__card-set-item-img" />
               </picture>
                 
               </picture>
                 
-                <div class="our-team__card-list-wrapper">
-                <h3 class="our-team__card-list-name">Михаил Ермаков</h3>
-                <p class="our-team__card-list-position" lang="en">UI Designer</p>
+                <div class="our-team__card-set-wrapper">
+                <h3 class="our-team__card-set-name">Михаил Ермаков</h3>
+                <p class="our-team__card-set-position" lang="en">UI Designer</p>
                 
                   <ul class="social-links__list list">
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20" ;>
                           <use href="./images/sprite.svg#instagram"></use>
                         </svg>
                       </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20">
                           <use href="./images/sprite.svg#twitter"></use>
                         </svg>
                       </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20">
                           <use href="./images/sprite.svg#facebook"></use>
                         </svg>
                       </a></li>
-                    <li class="social-links__list-item"><a href="#" class="link">
+                    <li class="social-links__list-item"><a href="#" class="social-links__list-item-link link">
                         <svg class="social-links__list-item-icon" width="20" height="20">
                           <use href="./images/sprite.svg#linkedin"></use>
                         </svg>

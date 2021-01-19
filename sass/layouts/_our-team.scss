@@ -8,40 +8,72 @@
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 1200px) {
-  .our-team__title {
-    margin-bottom: 30px;
+.our-team__card-set-item {
+  text-align: center;
+  background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px;
+}
+
+.our-team__card-set-item-img {
+  width: 100%;
+}
+
+.our-team__card-set-wrapper {
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+.our-team__card-set-name {
+  @include font(16px, 500, 19px);
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.our-team__card-set-position {
+  @include font(16px, 400, 19px);
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .our-team__card-set-item:last-child {
+    margin-bottom: 0px;
   }
 }
 
-// .our-team-section .card {
-//   display: flex;
-//   justify-content: space-between;
-// }
+@media screen and (min-width: 768px) {
+  .our-team__card-set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -30px;
+  }
 
-// .card > .item {
-//   text-align: center;
-//   background-color: var(--primary-white-color);
-//   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-//     0px 2px 1px rgba(0, 0, 0, 0.2);
-//   border-radius: 0px 0px 4px 4px;
-// }
+  .our-team__card-set-item {
+    width: calc((100% - 30px) / 2);
+  }
+}
 
-// .card .wrapper {
-//   padding: 30px 0px;
-// }
+@media screen and (min-width: 1200px) {
+  .our-team__title {
+    margin-bottom: 50px;
+  }
 
-// .card .name {
-//   @include font(16px, 500, 19px);
-//   letter-spacing: 0.03em;
-//   margin-bottom: 10px;
-// }
+  .our-team__card-set {
+    margin-bottom: 0;
+  }
 
-// .card .position {
-//   color: var(--secondary-text-color);
+  .our-team__card-set-item {
+    margin-bottom: 0;
+    flex-wrap: nowrap;
+    width: calc((100% - 3 * 30px) / 4);
+  }
 
-//   margin-bottom: 16px;
-
-//   @include font(16px, 400, 19px);
-//   letter-spacing: 0.03em;
-// }
+  .our-team__card-set-wrapper {
+    padding-bottom: 30px;
+  }
+}

@@ -40,15 +40,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: -30px;
     margin-bottom: -30px;
   }
 
   .advantages__list-item {
-    margin-right: 30px;
     margin-bottom: 30px;
     outline: 1px solid red;
-    width: calc((100% - 4 * 15px) / 2);
+    width: calc((100% - 30px) / 2);
   }
 
   .advantages__list-item-wrapper {

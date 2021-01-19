@@ -1,0 +1,33 @@
+/*-------------------social links --------------   */
+
+.social-links__list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links__list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-links__list-item-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  color: var(--primary-icon-color);
+  border-radius: 50%;
+  background-color: transparent;
+
+  transition: color 250ms var(--time-function),
+    background-color 250ms var(--time-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+  }
+}
+
+.social-links__list-item-icon {
+  margin: auto;
+  fill: currentColor;
+}
