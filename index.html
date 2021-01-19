@@ -63,14 +63,14 @@
     </header> -->
     <main>
       <!-- Hero -->        
-        <!-- <section class="hero section">
+        <section class="hero section">
           <div class="hero__container container">
             <h1 class="hero__title title">Эффективные решения <br>для вашего бизнеса</h1>
             <button type="button" class="hero__button" data-modal-open>Заказать услугу</button>
           </div>
-        </section>  -->
+        </section> 
       <!-- Advantages -->
-      <!-- <section class="advantages section">
+      <section class="advantages section">
         <div class="container">
         <h2 class="visually-hidden">Преимущества</h2>
           <ul class="advantages__list list">
@@ -124,10 +124,10 @@
             </li>
           </ul>
           </div>
-      </section> -->
+      </section>
 
       <!-- Activity -->
-       <!-- <section class="activity section">
+       <section class="activity section">
         <div class="container">
         <h2 class="activity__title title">Чем мы занимаемся</h2>
         <ul class="activity__list list">
@@ -135,7 +135,8 @@
               <picture>
                 <source srcset="./images/mark-up@1x.webp 1x, ./images/mark-up@2x.webp 2x" media="(min-width: 1200px)"
                   type="image/webp" />
-                <source srcset="./images/mark-up@1x.jpg 1x, ./images/mark-up@2x.jpg 2x" media="(min-width: 1200px)"/>
+                <source srcset="./images/mark-up@1x.jpg 1x, ./images/mark-up@2x.jpg 2x" media="(min-width: 1200px)"
+                type="image/jpg"/>
               
                 <img src="./images/mark-up@1x.jpg" alt="Планшет с кодом"/>
               </picture>
@@ -146,8 +147,8 @@
               <picture>
                 <source srcset="./images/adaptation@1x.webp 1x, ./images/adaptation@2x.webp 2x" media="(min-width: 1200px)"
                   type="image/webp" />
-                
-                  <source srcset="./images/adaptation@1x.jpg 1x, ./images/adaptation@2x.jpg 2x" media="(min-width: 1200px)" />
+                  <source srcset="./images/adaptation@1x.jpg 1x, ./images/adaptation@2x.jpg 2x" media="(min-width: 1200px)"
+                  type="image/jpg" />
                 <img src="./images/adaptation@1x.jpg" alt="Ноутбук с макетами смартфонов" />
               </picture>
                 <h3 class="activity__list-item-title">Мобильные приложения</h3>
@@ -156,8 +157,8 @@
               <picture>
                 <source srcset="./images/design@1x.webp 1x, ./images/design@2x.webp 2x" media="(min-width: 1200px)"
                   type="image/webp" />
-                
-                  <source srcset="./images/design@1x.jpg.jpg 1x, ./images/design@2x.jpg 2x" media="(min-width: 1200px)" />
+                  <source srcset="./images/design@1x.jpg.jpg 1x, ./images/design@2x.jpg 2x" media="(min-width: 1200px)"
+                   type="image/jpg" />
                 <img src="./images/design@1x.jpg" alt="Планшет с панелью цветов" width="370" height="294" />
               </picture>            
                 <h3 class="activity__list-item-title">Дизайнерские решения</h3>
@@ -166,10 +167,10 @@
          
         </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Our team -->
-      <!-- <section class="our-team section">
+      <section class="our-team section">
         <div class="container">
           <h2 class="our-team__title title">Наша команда</h2>
           <ul class="our-team__card-set list">
@@ -390,7 +391,7 @@
           </ul>
         </div>
        
-      </section> -->
+      </section>
 
 
       <!-- Customers -->
@@ -433,60 +434,70 @@
 
       </section>
 
-
     </main>
 
-    <!-- <footer class="page-footer">
-      <div class="container">
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="page-footer__container container">
+        <div class="page-footer__links-wrapper">
+          <div class="page-footer__wrapper">
+            <a class="page-footer__logo logo link" href="./index.html" aria-label="Логотип"><span
+                class="logo__span">Web</span>Studio</a>
+            <address class="page-footer__address">
+              <ul class="page-footer__address-list list">
+                <li class="page-footer__address-list-item"><a
+                    class="page-footer__address-list-item-link page-footer__address-list-item-link--map link"
+                    href="https://goo.gl/maps/mYZtJSJooVGheemE7" target="=_blank" rel="noreferrer noopener">г. Киев, пр-т Леси
+                    Украинки, 26</a></li>
+                <li class="page-footer__address-list-item"><a class="page-footer__address-list-item-link link"
+                    href="mailto:info@example.com">info@example.com</a></li>
+                <li class="page-footer__address-list-item"><a class="page-footer__address-list-item-link link"
+                    href="tel:+380991111111">+38 099 111 11 11</a></li>
+              </ul>
+            </address>
+          </div>
 
-        <div class="wrapper">
-        <a class="logo link" href="./index.html" aria-label="Логотип"><span>Web</span>Studio</a>
-        <address class="address">
-          <ul class="list">
-            <li class="item"><a class="link map-link" href="https://goo.gl/maps/mYZtJSJooVGheemE7" target="=_blank"
-                rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li class="item"><a class="link" href="mailto:info@example.com">info@example.com</a></li>
-            <li class="item"><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
-          </ul>
-        </address>
+          <div class="page-footer__wrapper">
+            <strong class="page-footer__invitation">присоединяйтесь</strong>
+            <ul class="social-links__list list">
+              <li class="social-links__list-item">
+                <a href="#" class="social-links__list-item-link social-links__list-item-link--dark-theme link">
+                  <svg class="social-links__list-item-icon " width="20" height="20" ;>
+                    <use href="./images/sprite.svg#instagram"></use>
+                  </svg>
+                </a></li>
+              <li class="social-links__list-item">
+                <a href="#" class="social-links__list-item-link social-links__list-item-link--dark-theme link">
+                  <svg class="social-links__list-item-icon" width="20" height="20">
+                    <use href="./images/sprite.svg#twitter"></use>
+                  </svg>
+                </a></li>
+              <li class="social-links__list-item">
+                <a href="#" class="social-links__list-item-link social-links__list-item-link--dark-theme link">
+                  <svg class="social-links__list-item-icon" width="20" height="20">
+                    <use href="./images/sprite.svg#facebook"></use>
+                  </svg>
+                </a></li>
+              <li class="social-links__list-item">
+                <a href="#" class="social-links__list-item-link social-links__list-item-link--dark-theme link">
+                  <svg class="social-links__list-item-icon" width="20" height="20">
+                    <use href="./images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a></li>
+            </ul>
+          </div>
         </div>
 
-        <div class="wrapper">
-        <strong class="invitation">присоединяйтесь</strong>
-                  <ul class="social-links list">
-                    <li class="item"><a href="#" class="link icon">
-                        <svg class="icon" width="20" height="20" ;>
-                          <use href="./images/sprite.svg#instagram"></use>
-                        </svg>
-                      </a></li>
-                    <li class="item"><a href="#" class="link icon">
-                        <svg class="icon" width="20" height="20">
-                          <use href="./images/sprite.svg#twitter"></use>
-                        </svg>
-                      </a></li>
-                    <li class="item"><a href="#" class="link icon">
-                        <svg class="icon" width="20" height="20">
-                          <use href="./images/sprite.svg#facebook"></use>
-                        </svg>
-                      </a></li>
-                    <li class="item"><a href="#" class="link icon">
-                        <svg class="icon" width="20" height="20">
-                          <use href="./images/sprite.svg#linkedin"></use>
-                        </svg>
-                      </a></li>
-                  </ul>
-        </div>
-
-        <div class="subscribe-wrapper">
-        <strong class="invitation">Подпишитесь на рассылку</strong>
-        <form action="#" class="subscribe-form">
-          <input type="email" name="email" class="subscribe-field" placeholder="E-mail">
-          <button type="submit" class="subscribe-btn">Подписаться</button>
+        <div class="page-footer__subscribe-wrapper">
+        <strong class="page-footer__invitation">Подпишитесь на рассылку</strong>
+        <form action="#" class="page-footer__subscribe-form">
+          <input type="email" name="email" class="page-footer__subscribe-form-field" placeholder="E-mail">
+          <button type="submit" class="page-footer__subscribe-form-btn">Подписаться</button>
         </form>
         </div>
       </div>
       
-    </footer> -->
+    </footer>
 
         <!-- Modal -->
 
