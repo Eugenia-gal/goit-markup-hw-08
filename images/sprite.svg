@@ -123,12 +123,14 @@
     </symbol>
     <symbol id="burger-menu">
       <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M8 14.667V12h24v2.667H8zm0 6.666h24v-2.666H8v2.666zM8 28h24v-2.667H8V28z" fill="#000" />
+        d="M8 14.667V12h24v2.667H8zm0 6.666h24v-2.666H8v2.666zM8 28h24v-2.667H8V28z" />
     </symbol>
 
     <symbol id="menu-close">
       <path
         d="M29.67 12.88L27.79 11l-7.46 7.45L12.88 11 11 12.88l7.45 7.45L11 27.8l1.88 1.88 7.45-7.46 7.46 7.46 1.88-1.88-7.46-7.46 7.46-7.45z" />
+    </symbol>
+
 </svg>
 
 
